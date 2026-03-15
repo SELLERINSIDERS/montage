@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "fps": 30,
+    "total_duration_ms": 10000,
+    "total_frames": 300,
+    "resolution": {
+      "width": 1080,
+      "height": 1920
+    },
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "generated_by": "videographer_agent_v2"
+  },
+  "avatar_track": {
+    "object_fit": "cover",
+    "object_position": "center top",
+    "vignette": "radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.4) 100%)",
+    "jump_cuts": [
+      {
+        "frame": 0,
+        "scale": 1.35,
+        "transform_origin": "center 30%",
+        "reason": "TIGHT — opening hook"
+      },
+      {
+        "frame": 150,
+        "scale": 1.15,
+        "transform_origin": "center 38%",
+        "reason": "MEDIUM — context shift"
+      }
+    ]
+  },
+  "b_roll_overlays": [],
+  "product_inserts": [],
+  "_comment": "Replace this example EDL with your production's generated EDL"
+}

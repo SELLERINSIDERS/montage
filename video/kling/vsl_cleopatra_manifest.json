@@ -1,0 +1,14 @@
+[
+  {
+    "scene": "01",
+    "name": "example_scene",
+    "image": "images/vsl_example/scene_01_example.png",
+    "prompt": "Slow dolly in toward the subject's face. Warm lighting flickering on features. Dust particles floating through light beams. Eyes shift subtly. Cinematic realism. 5s. Smooth, cinematic movement.",
+    "negative_prompt": "text, words, letters, logos, watermarks, UI elements, buttons, overlays, modern clothing in historical scenes, anachronistic objects, cartoonish, illustrated style, blurry, distorted, morphing faces, identity shift",
+    "duration": "5",
+    "aspect_ratio": "9:16",
+    "mode": "std",
+    "cfg_scale": 0.4,
+    "model_name": "kling-v3"
+  }
+]

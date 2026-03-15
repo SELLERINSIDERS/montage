@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "rates": {
+    "elevenlabs": {
+      "unit": "characters",
+      "cost_per_1000": 0.167,
+      "note": "Starter plan: $5/30000 credits"
+    },
+    "gemini": {
+      "unit": "images",
+      "cost_per_image": 0.005,
+      "note": "Estimated Gemini Flash image generation cost"
+    },
+    "kling": {
+      "type": "subscription",
+      "monthly_cost": 145.00,
+      "breakdown": "Kling $130/mo + UseAPI $15/mo",
+      "per_clip_display": "included"
+    },
+    "whisper": {
+      "type": "local",
+      "cost": 0,
+      "note": "Runs locally via openai-whisper"
+    }
+  }
+}

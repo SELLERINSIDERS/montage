@@ -1,0 +1,29 @@
+# Generated output (large video/audio files)
+video/output/
+node_modules/
+
+# Images and videos (stored locally, not on GitHub)
+images/
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+*.mp3
+*.wav
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

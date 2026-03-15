@@ -1,0 +1,121 @@
+{
+  "group_id": "d7a1fcef716e4d2d9c451d90d32402c5",
+  "group_name": "Sofia",
+  "default_voice_id": "20776652f64a458a8582705f4f2074d4",
+  "looks": [
+    {
+      "talking_photo_id": "2d44445546304f3889e29f7a81d8467c",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "82f6d38e2ee24fb9ad45c97f970aebeb",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "8a909447d4f742bebf6d665210f5277a",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "c01426a8fd384583a1fa73cb822e991c",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "b0e06d1c56f64b6eadc25057ffa68dfe",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "646e2b1d576f4498b620d2bbdccc3afd",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "142790dde88348b89326cc3935a14773",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "e2754cd310704984a4795521fc1aee53",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "eba3135272994e1f8564242e73984113",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "2883f6ea200f43e1a02b28a1b2e63935",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "2671b4d7c0b548a5a219176b7cae30e4",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "591c905defb94bef836aacac91a9d881",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": false
+    },
+    {
+      "talking_photo_id": "e3942b3b69cc4fb7b35aeed87c02723f",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "a24381ba54a741c5ac8f1ed2d123b262",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "4e44834b65c74472b5fb8e7cb13960e9",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "1a9da80696a24bb6936f1a2362e272e3",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": true
+    },
+    {
+      "talking_photo_id": "bc6e0dc706f84706a9bc307832694f7f",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": false
+    },
+    {
+      "talking_photo_id": "d1e066eeedd34460af6c190bec5e3dc9",
+      "name": "Avatar IV Video",
+      "status": "completed",
+      "is_motion": false
+    },
+    {
+      "talking_photo_id": "e303372a174441d794cef907add98005",
+      "name": "Sunny Apartment Vibes",
+      "status": "completed",
+      "is_motion": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_comment": "Example post-production EDL. Replace with your generated EDL.",
+  "meta": {
+    "format": "vsl",
+    "fps": 24,
+    "width": 1080,
+    "height": 1920,
+    "source_video": "your_vsl_rough_cut.mp4",
+    "voiceover": "Voice_Over/your_voiceover.mp3",
+    "whisper_data": "Voice_Over/your_whisper_data.json",
+    "caption_preset": "bold-bottom"
+  },
+  "scenes": [
+    {
+      "id": "scene_01",
+      "clip": "vsl/scene_01_example.mp4",
+      "start_s": 0.0,
+      "end_s": 3.0,
+      "duration_s": 3.0,
+      "script": "Your opening line goes here."
+    },
+    {
+      "id": "scene_02",
+      "clip": "vsl/scene_02_example.mp4",
+      "start_s": 3.0,
+      "end_s": 6.0,
+      "duration_s": 3.0,
+      "script": "Your second scene narration."
+    },
+    {
+      "id": "scene_03",
+      "clip": "vsl/scene_03_example.mp4",
+      "start_s": 6.0,
+      "end_s": 10.0,
+      "duration_s": 4.0,
+      "script": "Your closing narration."
+    }
+  ]
+}

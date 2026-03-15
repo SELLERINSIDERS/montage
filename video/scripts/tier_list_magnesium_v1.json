@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Top 5 Magnesium Supplements for Sleep - Tier List",
+    "version": "v1",
+    "format": "tier_list_comparison",
+    "target_duration_seconds": 45,
+    "aspect_ratio": "9:16",
+    "resolution": {"width": 1080, "height": 1920},
+    "destination_url": "https://3773584d.advertorial-mag.pages.dev/",
+    "cta_type": "Learn More"
+  },
+  "avatar": {
+    "type": "talking_photo",
+    "talking_photo_id": "2d44445546304f3889e29f7a81d8467c",
+    "voice_id": "20776652f64a458a8582705f4f2074d4",
+    "voice_speed": 1.0,
+    "render_mode": "green_screen"
+  },
+  "segments": [
+    {
+      "id": "hook_1",
+      "type": "hook",
+      "label": "HOOK 1 — Scroll Stopper",
+      "spoken_text": "I ranked the top 5 magnesium supplements for sleep so you don't have to.",
+      "overlay": {
+        "type": "title_card",
+        "text": "TOP 5 MAGNESIUM FOR SLEEP",
+        "subtext": "RANKED"
+      },
+      "notes": "Fast cut, bold text overlay. Avatar speaks directly to camera."
+    },
+    {
+      "id": "rank_5",
+      "type": "product_review",
+      "rank": 5,
+      "grade": "C",
+      "product": "Nature Made",
+      "product_image": "Nature Made Magnesium Oxide.avif",
+      "spoken_text": "Number 5, Nature Made. It uses magnesium oxide which has about 8% absorption. You're basically flushing your money.",
+      "overlay": {
+        "type": "tier_card",
+        "grade": "C",
+        "grade_color": "#FF6B6B"
+      }
+    },
+    {
+      "id": "rank_4",
+      "type": "product_review",
+      "rank": 4,
+      "grade": "C+",
+      "product": "NOW Foods",
+      "product_image": "NOW Foods Magnesium.avif",
+      "spoken_text": "Number 4, NOW Foods. It's a blend of oxide and citrate, but they hide the ratio in a proprietary blend. That's a red flag.",
+      "overlay": {
+        "type": "tier_card",
+        "grade": "C+",
+        "grade_color": "#FFA07A"
+      }
+    },
+    {
+      "id": "rank_3",
+      "type": "product_review",
+      "rank": 3,
+      "grade": "B",
+      "product": "Life Extension",
+      "product_image": "Life Extension Magnesium.avif",
+      "spoken_text": "Number 3, Life Extension. Pure citrate, better absorption. Solid budget pick but nothing that stands out.",
+      "overlay": {
+        "type": "tier_card",
+        "grade": "B",
+        "grade_color": "#FFD700"
+      }
+    },
+    {
+      "id": "hook_2",
+      "type": "hook",
+      "label": "HOOK 2 — Re-engagement",
+      "spoken_text": "Now here's where it actually gets interesting.",
+      "overlay": {
+        "type": "text_flash",
+        "text": "👀"
+      },
+      "notes": "Brief pause, zoom shift, energy change. Re-hooks viewers at ~50% mark."
+    },
+    {
+      "id": "rank_2",
+      "type": "product_review",
+      "rank": 2,
+      "grade": "B+",
+      "product": "Pure Encapsulations",
+      "product_image": "Pure Encapsulations Magnesium Glycinate.avif",
+      "spoken_text": "Number 2, Pure Encapsulations. Chelated bisglycinate, great absorption, clean label. Practitioners love it. But it's still just magnesium by itself.",
+      "overlay": {
+        "type": "tier_card",
+        "grade": "B+",
+        "grade_color": "#90EE90"
+      }
+    },
+    {
+      "id": "rank_1",
+      "type": "product_review",
+      "rank": 1,
+      "grade": "A+",
+      "product": "Winner",
+      "product_image": "Your-Product.avif",
+      "spoken_text": "And number 1 was the only formula combining chelated magnesium with saffron extract and L-Theanine. Three ingredients that actually work together to help you fall asleep faster and stay asleep. This is what everyone else is missing.",
+      "overlay": {
+        "type": "tier_card",
+        "grade": "A+",
+        "grade_color": "#39E508",
+        "winner_effect": true
+      },
+      "notes": "Longer segment. Winner reveal with glow/pulse effect. Don't name the product — curiosity drives click."
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "spoken_text": "Click the link to see the full comparison.",
+      "overlay": {
+        "type": "cta_card",
+        "text": "FULL COMPARISON ↓",
+        "url_display": "Click the link"
+      },
+      "notes": "Clear CTA pointing down. Arrow animation."
+    }
+  ],
+  "style_config": {
+    "background_color": "#0A0A0A",
+    "tier_card_style": "gaming",
+    "font_family": "TheBoldFont",
+    "caption_style": "tiktok_word_highlight",
+    "caption_highlight_color": "#39E508",
+    "avatar_position": "bottom_center",
+    "avatar_size": 0.4,
+    "product_image_position": "center",
+    "product_image_size": 0.35
+  }
+}

@@ -1,0 +1,12 @@
+[project]
+name = "vsl-video-framework"
+version = "0.1.0"
+description = "End-to-end AI video production pipeline for VSLs, short ads, and UGC clips"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "integration: real API integration tests (require USEAPI_TOKEN env var)",
+]

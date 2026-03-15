@@ -1,0 +1,1024 @@
+[
+  {
+    "text": "I",
+    "startMs": 0,
+    "endMs": 400,
+    "timestampMs": 0,
+    "confidence": 1.0
+  },
+  {
+    "text": " rank",
+    "startMs": 400,
+    "endMs": 579,
+    "timestampMs": 400,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 579,
+    "endMs": 779,
+    "timestampMs": 579,
+    "confidence": 1.0
+  },
+  {
+    "text": " top",
+    "startMs": 779,
+    "endMs": 1100,
+    "timestampMs": 779,
+    "confidence": 1.0
+  },
+  {
+    "text": " 5",
+    "startMs": 1100,
+    "endMs": 1460,
+    "timestampMs": 1100,
+    "confidence": 1.0
+  },
+  {
+    "text": " magnesium",
+    "startMs": 1460,
+    "endMs": 1960,
+    "timestampMs": 1460,
+    "confidence": 1.0
+  },
+  {
+    "text": " supplements",
+    "startMs": 1960,
+    "endMs": 2480,
+    "timestampMs": 1960,
+    "confidence": 1.0
+  },
+  {
+    "text": " for",
+    "startMs": 2480,
+    "endMs": 2880,
+    "timestampMs": 2480,
+    "confidence": 1.0
+  },
+  {
+    "text": " sleep",
+    "startMs": 2880,
+    "endMs": 3099,
+    "timestampMs": 2880,
+    "confidence": 1.0
+  },
+  {
+    "text": " so",
+    "startMs": 3099,
+    "endMs": 3359,
+    "timestampMs": 3099,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 3359,
+    "endMs": 3519,
+    "timestampMs": 3359,
+    "confidence": 1.0
+  },
+  {
+    "text": " don't",
+    "startMs": 3519,
+    "endMs": 3759,
+    "timestampMs": 3519,
+    "confidence": 1.0
+  },
+  {
+    "text": " have",
+    "startMs": 3759,
+    "endMs": 4000,
+    "timestampMs": 3759,
+    "confidence": 1.0
+  },
+  {
+    "text": " to",
+    "startMs": 4000,
+    "endMs": 4380,
+    "timestampMs": 4000,
+    "confidence": 1.0
+  },
+  {
+    "text": " Number",
+    "startMs": 5239,
+    "endMs": 5559,
+    "timestampMs": 5239,
+    "confidence": 1.0
+  },
+  {
+    "text": " 5",
+    "startMs": 5559,
+    "endMs": 5960,
+    "timestampMs": 5559,
+    "confidence": 1.0
+  },
+  {
+    "text": " Nature",
+    "startMs": 6159,
+    "endMs": 6579,
+    "timestampMs": 6159,
+    "confidence": 1.0
+  },
+  {
+    "text": " Made",
+    "startMs": 6579,
+    "endMs": 6860,
+    "timestampMs": 6579,
+    "confidence": 1.0
+  },
+  {
+    "text": " It",
+    "startMs": 8079,
+    "endMs": 8079,
+    "timestampMs": 8079,
+    "confidence": 1.0
+  },
+  {
+    "text": " uses",
+    "startMs": 8079,
+    "endMs": 8399,
+    "timestampMs": 8079,
+    "confidence": 1.0
+  },
+  {
+    "text": " magnesium",
+    "startMs": 8399,
+    "endMs": 9039,
+    "timestampMs": 8399,
+    "confidence": 1.0
+  },
+  {
+    "text": " oxide",
+    "startMs": 9039,
+    "endMs": 9460,
+    "timestampMs": 9039,
+    "confidence": 1.0
+  },
+  {
+    "text": " which",
+    "startMs": 9460,
+    "endMs": 9739,
+    "timestampMs": 9460,
+    "confidence": 1.0
+  },
+  {
+    "text": " has",
+    "startMs": 9739,
+    "endMs": 9899,
+    "timestampMs": 9739,
+    "confidence": 1.0
+  },
+  {
+    "text": " about",
+    "startMs": 9899,
+    "endMs": 10159,
+    "timestampMs": 9899,
+    "confidence": 1.0
+  },
+  {
+    "text": " 8",
+    "startMs": 10159,
+    "endMs": 10439,
+    "timestampMs": 10159,
+    "confidence": 1.0
+  },
+  {
+    "text": " ",
+    "startMs": 10439,
+    "endMs": 10880,
+    "timestampMs": 10439,
+    "confidence": 1.0
+  },
+  {
+    "text": " absorption",
+    "startMs": 10880,
+    "endMs": 11239,
+    "timestampMs": 10880,
+    "confidence": 1.0
+  },
+  {
+    "text": " You're",
+    "startMs": 12399,
+    "endMs": 12720,
+    "timestampMs": 12399,
+    "confidence": 1.0
+  },
+  {
+    "text": " basically",
+    "startMs": 12720,
+    "endMs": 13199,
+    "timestampMs": 12720,
+    "confidence": 1.0
+  },
+  {
+    "text": " flushing",
+    "startMs": 13199,
+    "endMs": 13619,
+    "timestampMs": 13199,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 13619,
+    "endMs": 13939,
+    "timestampMs": 13619,
+    "confidence": 1.0
+  },
+  {
+    "text": " money",
+    "startMs": 13939,
+    "endMs": 14180,
+    "timestampMs": 13939,
+    "confidence": 1.0
+  },
+  {
+    "text": " Number",
+    "startMs": 15220,
+    "endMs": 15500,
+    "timestampMs": 15220,
+    "confidence": 1.0
+  },
+  {
+    "text": " 4",
+    "startMs": 15500,
+    "endMs": 15819,
+    "timestampMs": 15500,
+    "confidence": 1.0
+  },
+  {
+    "text": " Now",
+    "startMs": 16079,
+    "endMs": 16399,
+    "timestampMs": 16079,
+    "confidence": 1.0
+  },
+  {
+    "text": " Foods",
+    "startMs": 16399,
+    "endMs": 16700,
+    "timestampMs": 16399,
+    "confidence": 1.0
+  },
+  {
+    "text": " It's",
+    "startMs": 17780,
+    "endMs": 18000,
+    "timestampMs": 17780,
+    "confidence": 1.0
+  },
+  {
+    "text": " a",
+    "startMs": 18000,
+    "endMs": 18280,
+    "timestampMs": 18000,
+    "confidence": 1.0
+  },
+  {
+    "text": " blend",
+    "startMs": 18280,
+    "endMs": 18280,
+    "timestampMs": 18280,
+    "confidence": 1.0
+  },
+  {
+    "text": " of",
+    "startMs": 18280,
+    "endMs": 18540,
+    "timestampMs": 18280,
+    "confidence": 1.0
+  },
+  {
+    "text": " oxide",
+    "startMs": 18540,
+    "endMs": 18879,
+    "timestampMs": 18540,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 18879,
+    "endMs": 19139,
+    "timestampMs": 18879,
+    "confidence": 1.0
+  },
+  {
+    "text": " citrate",
+    "startMs": 19139,
+    "endMs": 19399,
+    "timestampMs": 19139,
+    "confidence": 1.0
+  },
+  {
+    "text": " but",
+    "startMs": 19840,
+    "endMs": 19940,
+    "timestampMs": 19840,
+    "confidence": 1.0
+  },
+  {
+    "text": " they",
+    "startMs": 19940,
+    "endMs": 20159,
+    "timestampMs": 19940,
+    "confidence": 1.0
+  },
+  {
+    "text": " hide",
+    "startMs": 20159,
+    "endMs": 20399,
+    "timestampMs": 20159,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 20399,
+    "endMs": 20719,
+    "timestampMs": 20399,
+    "confidence": 1.0
+  },
+  {
+    "text": " ratio",
+    "startMs": 20719,
+    "endMs": 20940,
+    "timestampMs": 20719,
+    "confidence": 1.0
+  },
+  {
+    "text": " in",
+    "startMs": 20940,
+    "endMs": 21219,
+    "timestampMs": 20940,
+    "confidence": 1.0
+  },
+  {
+    "text": " a",
+    "startMs": 21219,
+    "endMs": 21420,
+    "timestampMs": 21219,
+    "confidence": 1.0
+  },
+  {
+    "text": " proprietary",
+    "startMs": 21420,
+    "endMs": 21920,
+    "timestampMs": 21420,
+    "confidence": 1.0
+  },
+  {
+    "text": " blend",
+    "startMs": 21920,
+    "endMs": 22319,
+    "timestampMs": 21920,
+    "confidence": 1.0
+  },
+  {
+    "text": " That's",
+    "startMs": 23360,
+    "endMs": 23639,
+    "timestampMs": 23360,
+    "confidence": 1.0
+  },
+  {
+    "text": " a",
+    "startMs": 23639,
+    "endMs": 23840,
+    "timestampMs": 23639,
+    "confidence": 1.0
+  },
+  {
+    "text": " red",
+    "startMs": 23840,
+    "endMs": 24020,
+    "timestampMs": 23840,
+    "confidence": 1.0
+  },
+  {
+    "text": " flag",
+    "startMs": 24020,
+    "endMs": 24340,
+    "timestampMs": 24020,
+    "confidence": 1.0
+  },
+  {
+    "text": " Number",
+    "startMs": 25340,
+    "endMs": 25659,
+    "timestampMs": 25340,
+    "confidence": 1.0
+  },
+  {
+    "text": " 3",
+    "startMs": 25659,
+    "endMs": 26020,
+    "timestampMs": 25659,
+    "confidence": 1.0
+  },
+  {
+    "text": " Life",
+    "startMs": 26319,
+    "endMs": 26639,
+    "timestampMs": 26319,
+    "confidence": 1.0
+  },
+  {
+    "text": " Extension",
+    "startMs": 26639,
+    "endMs": 27120,
+    "timestampMs": 26639,
+    "confidence": 1.0
+  },
+  {
+    "text": " Pure",
+    "startMs": 28079,
+    "endMs": 28520,
+    "timestampMs": 28079,
+    "confidence": 1.0
+  },
+  {
+    "text": " citrate",
+    "startMs": 28520,
+    "endMs": 28959,
+    "timestampMs": 28520,
+    "confidence": 1.0
+  },
+  {
+    "text": " better",
+    "startMs": 29239,
+    "endMs": 29520,
+    "timestampMs": 29239,
+    "confidence": 1.0
+  },
+  {
+    "text": " absorption",
+    "startMs": 29520,
+    "endMs": 30079,
+    "timestampMs": 29520,
+    "confidence": 1.0
+  },
+  {
+    "text": " Solid",
+    "startMs": 31520,
+    "endMs": 31559,
+    "timestampMs": 31520,
+    "confidence": 1.0
+  },
+  {
+    "text": " budget",
+    "startMs": 31559,
+    "endMs": 31899,
+    "timestampMs": 31559,
+    "confidence": 1.0
+  },
+  {
+    "text": " pick",
+    "startMs": 31899,
+    "endMs": 32220,
+    "timestampMs": 31899,
+    "confidence": 1.0
+  },
+  {
+    "text": " but",
+    "startMs": 32220,
+    "endMs": 32500,
+    "timestampMs": 32220,
+    "confidence": 1.0
+  },
+  {
+    "text": " nothing",
+    "startMs": 32500,
+    "endMs": 32880,
+    "timestampMs": 32500,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 32880,
+    "endMs": 33240,
+    "timestampMs": 32880,
+    "confidence": 1.0
+  },
+  {
+    "text": " stands",
+    "startMs": 33240,
+    "endMs": 33520,
+    "timestampMs": 33240,
+    "confidence": 1.0
+  },
+  {
+    "text": " out",
+    "startMs": 33520,
+    "endMs": 33900,
+    "timestampMs": 33520,
+    "confidence": 1.0
+  },
+  {
+    "text": " Now",
+    "startMs": 34979,
+    "endMs": 35180,
+    "timestampMs": 34979,
+    "confidence": 1.0
+  },
+  {
+    "text": " here's",
+    "startMs": 35180,
+    "endMs": 35500,
+    "timestampMs": 35180,
+    "confidence": 1.0
+  },
+  {
+    "text": " where",
+    "startMs": 35500,
+    "endMs": 35659,
+    "timestampMs": 35500,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 35659,
+    "endMs": 35840,
+    "timestampMs": 35659,
+    "confidence": 1.0
+  },
+  {
+    "text": " actually",
+    "startMs": 35840,
+    "endMs": 36279,
+    "timestampMs": 35840,
+    "confidence": 1.0
+  },
+  {
+    "text": " gets",
+    "startMs": 36279,
+    "endMs": 36540,
+    "timestampMs": 36279,
+    "confidence": 1.0
+  },
+  {
+    "text": " interesting",
+    "startMs": 36540,
+    "endMs": 37119,
+    "timestampMs": 36540,
+    "confidence": 1.0
+  },
+  {
+    "text": " Number",
+    "startMs": 38299,
+    "endMs": 38580,
+    "timestampMs": 38299,
+    "confidence": 1.0
+  },
+  {
+    "text": " 2",
+    "startMs": 38580,
+    "endMs": 38799,
+    "timestampMs": 38580,
+    "confidence": 1.0
+  },
+  {
+    "text": " Pure",
+    "startMs": 39220,
+    "endMs": 39360,
+    "timestampMs": 39220,
+    "confidence": 1.0
+  },
+  {
+    "text": " Encapsulations",
+    "startMs": 39360,
+    "endMs": 40380,
+    "timestampMs": 39360,
+    "confidence": 1.0
+  },
+  {
+    "text": " Chelated",
+    "startMs": 41680,
+    "endMs": 41779,
+    "timestampMs": 41680,
+    "confidence": 1.0
+  },
+  {
+    "text": " bisglycinate",
+    "startMs": 41779,
+    "endMs": 42439,
+    "timestampMs": 41779,
+    "confidence": 1.0
+  },
+  {
+    "text": " great",
+    "startMs": 42979,
+    "endMs": 43259,
+    "timestampMs": 42979,
+    "confidence": 1.0
+  },
+  {
+    "text": " absorption",
+    "startMs": 43259,
+    "endMs": 43659,
+    "timestampMs": 43259,
+    "confidence": 1.0
+  },
+  {
+    "text": " clean",
+    "startMs": 44380,
+    "endMs": 44439,
+    "timestampMs": 44380,
+    "confidence": 1.0
+  },
+  {
+    "text": " label",
+    "startMs": 44439,
+    "endMs": 44819,
+    "timestampMs": 44439,
+    "confidence": 1.0
+  },
+  {
+    "text": " Practitioners",
+    "startMs": 46060,
+    "endMs": 46540,
+    "timestampMs": 46060,
+    "confidence": 1.0
+  },
+  {
+    "text": " love",
+    "startMs": 46540,
+    "endMs": 46819,
+    "timestampMs": 46540,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 46819,
+    "endMs": 47099,
+    "timestampMs": 46819,
+    "confidence": 1.0
+  },
+  {
+    "text": " But",
+    "startMs": 48020,
+    "endMs": 48159,
+    "timestampMs": 48020,
+    "confidence": 1.0
+  },
+  {
+    "text": " it's",
+    "startMs": 48159,
+    "endMs": 48400,
+    "timestampMs": 48159,
+    "confidence": 1.0
+  },
+  {
+    "text": " still",
+    "startMs": 48400,
+    "endMs": 48700,
+    "timestampMs": 48400,
+    "confidence": 1.0
+  },
+  {
+    "text": " just",
+    "startMs": 48700,
+    "endMs": 49099,
+    "timestampMs": 48700,
+    "confidence": 1.0
+  },
+  {
+    "text": " magnesium",
+    "startMs": 49099,
+    "endMs": 49500,
+    "timestampMs": 49099,
+    "confidence": 1.0
+  },
+  {
+    "text": " by",
+    "startMs": 49500,
+    "endMs": 49939,
+    "timestampMs": 49500,
+    "confidence": 1.0
+  },
+  {
+    "text": " itself",
+    "startMs": 49939,
+    "endMs": 50340,
+    "timestampMs": 49939,
+    "confidence": 1.0
+  },
+  {
+    "text": " And",
+    "startMs": 51060,
+    "endMs": 51560,
+    "timestampMs": 51060,
+    "confidence": 1.0
+  },
+  {
+    "text": " number",
+    "startMs": 51560,
+    "endMs": 51840,
+    "timestampMs": 51560,
+    "confidence": 1.0
+  },
+  {
+    "text": " 1",
+    "startMs": 51840,
+    "endMs": 52080,
+    "timestampMs": 51840,
+    "confidence": 1.0
+  },
+  {
+    "text": " was",
+    "startMs": 52080,
+    "endMs": 52240,
+    "timestampMs": 52080,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 52240,
+    "endMs": 52419,
+    "timestampMs": 52240,
+    "confidence": 1.0
+  },
+  {
+    "text": " only",
+    "startMs": 52419,
+    "endMs": 52740,
+    "timestampMs": 52419,
+    "confidence": 1.0
+  },
+  {
+    "text": " formula",
+    "startMs": 52740,
+    "endMs": 53119,
+    "timestampMs": 52740,
+    "confidence": 1.0
+  },
+  {
+    "text": " combining",
+    "startMs": 53119,
+    "endMs": 53759,
+    "timestampMs": 53119,
+    "confidence": 1.0
+  },
+  {
+    "text": " chelated",
+    "startMs": 53759,
+    "endMs": 54240,
+    "timestampMs": 53759,
+    "confidence": 1.0
+  },
+  {
+    "text": " magnesium",
+    "startMs": 54240,
+    "endMs": 54779,
+    "timestampMs": 54240,
+    "confidence": 1.0
+  },
+  {
+    "text": " with",
+    "startMs": 54779,
+    "endMs": 55200,
+    "timestampMs": 54779,
+    "confidence": 1.0
+  },
+  {
+    "text": " saffron",
+    "startMs": 55200,
+    "endMs": 55540,
+    "timestampMs": 55200,
+    "confidence": 1.0
+  },
+  {
+    "text": " extract",
+    "startMs": 55540,
+    "endMs": 56080,
+    "timestampMs": 55540,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 56080,
+    "endMs": 56340,
+    "timestampMs": 56080,
+    "confidence": 1.0
+  },
+  {
+    "text": " l",
+    "startMs": 56340,
+    "endMs": 56540,
+    "timestampMs": 56340,
+    "confidence": 1.0
+  },
+  {
+    "text": " theanine",
+    "startMs": 56540,
+    "endMs": 56959,
+    "timestampMs": 56540,
+    "confidence": 1.0
+  },
+  {
+    "text": " Three",
+    "startMs": 57779,
+    "endMs": 58360,
+    "timestampMs": 57779,
+    "confidence": 1.0
+  },
+  {
+    "text": " ingredients",
+    "startMs": 58360,
+    "endMs": 58939,
+    "timestampMs": 58360,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 58939,
+    "endMs": 59220,
+    "timestampMs": 58939,
+    "confidence": 1.0
+  },
+  {
+    "text": " actually",
+    "startMs": 59220,
+    "endMs": 59700,
+    "timestampMs": 59220,
+    "confidence": 1.0
+  },
+  {
+    "text": " work",
+    "startMs": 59700,
+    "endMs": 60040,
+    "timestampMs": 59700,
+    "confidence": 1.0
+  },
+  {
+    "text": " together",
+    "startMs": 60040,
+    "endMs": 60459,
+    "timestampMs": 60040,
+    "confidence": 1.0
+  },
+  {
+    "text": " to",
+    "startMs": 60459,
+    "endMs": 60700,
+    "timestampMs": 60459,
+    "confidence": 1.0
+  },
+  {
+    "text": " help",
+    "startMs": 60700,
+    "endMs": 60900,
+    "timestampMs": 60700,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 60900,
+    "endMs": 61200,
+    "timestampMs": 60900,
+    "confidence": 1.0
+  },
+  {
+    "text": " fall",
+    "startMs": 61200,
+    "endMs": 61319,
+    "timestampMs": 61200,
+    "confidence": 1.0
+  },
+  {
+    "text": " asleep",
+    "startMs": 61319,
+    "endMs": 61759,
+    "timestampMs": 61319,
+    "confidence": 1.0
+  },
+  {
+    "text": " faster",
+    "startMs": 61759,
+    "endMs": 62159,
+    "timestampMs": 61759,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 62159,
+    "endMs": 62500,
+    "timestampMs": 62159,
+    "confidence": 1.0
+  },
+  {
+    "text": " stay",
+    "startMs": 62500,
+    "endMs": 62680,
+    "timestampMs": 62500,
+    "confidence": 1.0
+  },
+  {
+    "text": " asleep",
+    "startMs": 62680,
+    "endMs": 63299,
+    "timestampMs": 62680,
+    "confidence": 1.0
+  },
+  {
+    "text": " This",
+    "startMs": 64160,
+    "endMs": 64239,
+    "timestampMs": 64160,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 64239,
+    "endMs": 64440,
+    "timestampMs": 64239,
+    "confidence": 1.0
+  },
+  {
+    "text": " what",
+    "startMs": 64440,
+    "endMs": 64599,
+    "timestampMs": 64440,
+    "confidence": 1.0
+  },
+  {
+    "text": " everyone",
+    "startMs": 64599,
+    "endMs": 65000,
+    "timestampMs": 64599,
+    "confidence": 1.0
+  },
+  {
+    "text": " else",
+    "startMs": 65000,
+    "endMs": 65279,
+    "timestampMs": 65000,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 65279,
+    "endMs": 65559,
+    "timestampMs": 65279,
+    "confidence": 1.0
+  },
+  {
+    "text": " missing",
+    "startMs": 65559,
+    "endMs": 65779,
+    "timestampMs": 65559,
+    "confidence": 1.0
+  },
+  {
+    "text": " Click",
+    "startMs": 67059,
+    "endMs": 67059,
+    "timestampMs": 67059,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 67059,
+    "endMs": 67279,
+    "timestampMs": 67059,
+    "confidence": 1.0
+  },
+  {
+    "text": " link",
+    "startMs": 67279,
+    "endMs": 67440,
+    "timestampMs": 67279,
+    "confidence": 1.0
+  },
+  {
+    "text": " to",
+    "startMs": 67440,
+    "endMs": 67680,
+    "timestampMs": 67440,
+    "confidence": 1.0
+  },
+  {
+    "text": " see",
+    "startMs": 67680,
+    "endMs": 67839,
+    "timestampMs": 67680,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 67839,
+    "endMs": 68019,
+    "timestampMs": 67839,
+    "confidence": 1.0
+  },
+  {
+    "text": " full",
+    "startMs": 68019,
+    "endMs": 68319,
+    "timestampMs": 68019,
+    "confidence": 1.0
+  },
+  {
+    "text": " comparison",
+    "startMs": 68319,
+    "endMs": 68800,
+    "timestampMs": 68319,
+    "confidence": 1.0
+  }
+]

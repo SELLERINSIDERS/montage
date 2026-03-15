@@ -1,0 +1,30 @@
+{
+  "_comment": "Example VSL manifest. Replace with your generated manifest.",
+  "meta": {
+    "format": "vsl",
+    "fps": 24,
+    "width": 1080,
+    "height": 1920,
+    "voiceover": "Voice_Over/your_voiceover.mp3"
+  },
+  "scenes": [
+    {
+      "id": "scene_01",
+      "file": "scene_01_example.mp4",
+      "script_line": "Your opening line goes here.",
+      "duration_s": 3.0
+    },
+    {
+      "id": "scene_02",
+      "file": "scene_02_example.mp4",
+      "script_line": "Your second scene narration.",
+      "duration_s": 3.0
+    },
+    {
+      "id": "scene_03",
+      "file": "scene_03_example.mp4",
+      "script_line": "Your closing narration.",
+      "duration_s": 4.0
+    }
+  ]
+}
