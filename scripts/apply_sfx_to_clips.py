@@ -6,7 +6,7 @@ overlays SFX onto clips, replaces originals.
 Clips with no SFX layers are untouched.
 
 Usage:
-    python scripts/apply_sfx_to_clips.py --project vsl/nightcap
+    python scripts/apply_sfx_to_clips.py --project vsl/my-project
 """
 
 import argparse
@@ -27,7 +27,7 @@ def build_paths(project_dir: str) -> dict:
     """Derive clips_dir and audio_design path from a project directory.
 
     Args:
-        project_dir: Project directory path (e.g. "vsl/nightcap").
+        project_dir: Project directory path (e.g. "vsl/my-project").
 
     Returns:
         Dict with clips_dir and audio_design as Path objects.
@@ -194,7 +194,7 @@ def apply_sfx(scene_id, scene_data, clip_path, sfx_dir=None):
 def main():
     parser = argparse.ArgumentParser(description="Apply SFX audio layers to Kling video clips")
     parser.add_argument("--project", required=True,
-                        help="Project directory e.g. vsl/nightcap")
+                        help="Project directory e.g. vsl/my-project")
     args = parser.parse_args()
 
     paths = build_paths(args.project)

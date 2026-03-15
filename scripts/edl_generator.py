@@ -7,9 +7,9 @@ Usage:
     from scripts.edl_generator import generate_edl, modify_edl
 
     edl = generate_edl(
-        manifest_path="vsl/nightcap/state/manifest.json",
-        audio_design_path="vsl/nightcap/state/audio_design.json",
-        whisper_path="vsl/nightcap/audio/whisper.json",
+        manifest_path="vsl/my-project/state/manifest.json",
+        audio_design_path="vsl/my-project/state/audio_design.json",
+        whisper_path="vsl/my-project/audio/whisper.json",
     )
 """
 

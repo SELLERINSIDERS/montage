@@ -11,7 +11,7 @@ Also provides SFX fallback for scenes where Kling audio fails compliance.
 
 Usage:
     python scripts/generate_voiceover_segments.py \\
-        --project vsl/nightcap --format vsl
+        --project vsl/my-project --format vsl
 """
 
 import argparse
@@ -245,7 +245,7 @@ def main():
     parser.add_argument(
         "--project",
         required=True,
-        help="Project directory (e.g. vsl/nightcap)",
+        help="Project directory (e.g. vsl/my-project)",
     )
     parser.add_argument(
         "--format",

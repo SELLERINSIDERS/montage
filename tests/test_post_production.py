@@ -27,7 +27,7 @@ def production_dir(tmp_path):
     manifest = {
         "schema_version": "workflow-manifest-v2",
         "format": "vsl",
-        "slug": "nightcap",
+        "slug": "my-project",
         "scenes": [
             {
                 "scene_id": "scene_01",
@@ -90,7 +90,7 @@ def edl_data():
             "fps": 24,
             "width": 1080,
             "height": 1920,
-            "title": "nightcap",
+            "title": "my-project",
             "format": "vsl",
             "caption_preset": "tiktok_bold",
             "platform_target": "generic",
@@ -130,7 +130,7 @@ class TestSetupSymlinks:
     def test_creates_clip_symlink(self, production_dir):
         from scripts.post_production import setup_symlinks, REMOTION_PUBLIC
 
-        link_dir = setup_symlinks("vsl", "nightcap", str(production_dir))
+        link_dir = setup_symlinks("vsl", "my-project", str(production_dir))
         link_path = Path(link_dir)
 
         clips_link = link_path / "clips"
@@ -139,7 +139,7 @@ class TestSetupSymlinks:
     def test_creates_audio_symlink(self, production_dir):
         from scripts.post_production import setup_symlinks
 
-        link_dir = setup_symlinks("vsl", "nightcap", str(production_dir))
+        link_dir = setup_symlinks("vsl", "my-project", str(production_dir))
         link_path = Path(link_dir)
 
         audio_link = link_path / "audio"
@@ -148,10 +148,10 @@ class TestSetupSymlinks:
     def test_cleanup_removes_link_directory(self, production_dir):
         from scripts.post_production import setup_symlinks, cleanup_symlinks
 
-        link_dir = setup_symlinks("vsl", "nightcap", str(production_dir))
+        link_dir = setup_symlinks("vsl", "my-project", str(production_dir))
         assert Path(link_dir).exists()
 
-        cleanup_symlinks("vsl", "nightcap")
+        cleanup_symlinks("vsl", "my-project")
         assert not Path(link_dir).exists()
 
 

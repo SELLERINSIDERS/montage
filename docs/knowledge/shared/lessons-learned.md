@@ -38,7 +38,7 @@ tags: [lessons, gotchas, debugging]
 ### Remotion
 - ALWAYS get exact width/height/fps from `ffprobe` — NEVER hardcode dimensions
 - Dimensions vary between Kling clips; hardcoding breaks rendering
-- **PascalCase↔snake_case ID mismatch**: audioDesigns.ts uses `scene_01` (snake_case), sceneManifest.ts uses `Scene01CleopatraPortrait` (PascalCase). Any script matching between the two must convert formats: `re.match(r'Scene(\d+)', comp_id)` then `f"scene_{num.zfill(2)}"`. A naive `re.match(r'scene_\d+', comp_id)` will silently fail on PascalCase IDs.
+- **PascalCase↔snake_case ID mismatch**: audioDesigns.ts uses `scene_01` (snake_case), sceneManifest.ts uses `Scene01OpeningShot` (PascalCase). Any script matching between the two must convert formats: `re.match(r'Scene(\d+)', comp_id)` then `f"scene_{num.zfill(2)}"`. A naive `re.match(r'scene_\d+', comp_id)` will silently fail on PascalCase IDs.
 - **Post-render SILENT verification**: After batch render, always verify SILENT scenes are exact copies (same file size as original). Remotion re-encoding adds a silent aac track that changes the file size — a "successful" render of a SILENT scene is actually a failure.
 
 ### Audio Sources
@@ -74,15 +74,15 @@ tags: [lessons, gotchas, debugging]
 - Voice speed varies by voice — Jessica/Hope are naturally slow even at high speed settings
 - NO SSML support in v3 model — use audio tags like `[pause]`, `[calm]` instead
 
-### Remotion — Post-Production Assembly (cadence-sleepless-v1, March 2026)
+### Remotion — Post-Production Assembly (my-short-ad, March 2026)
 
 **Whisper format mismatch**: `transcribe_api.py` produces `@remotion/captions` flat array format. `CaptionLayer` expects Whisper segments format `{segments: [{words: []}]}`. Convert with a one-time script → save as `whisper_segments.json`. The `handoff-voiceover.json` `whisper_data` field should point to the segments file, not the raw transcription output.
 
 **Broken public/vsl symlink**: `video/remotion-video/public/vsl` was a symlink pointing to a deleted path from a prior project. Remotion's bundler silently fails on broken symlinks — remove them before render. Add cleanup step to post-production agent: `find video/remotion-video/public -xtype l -delete` before every render.
 
-**Remotion bundler doesn't follow symlinks**: Clips and audio at project paths (e.g., `ads/cadence-sleepless-v1/video/clips/`) must be **copied** (not symlinked) into `video/remotion-video/public/` so the bundler can include them. Copy as real files. Automate this in the post-production agent's `prepare_assets` step.
+**Remotion bundler doesn't follow symlinks**: Clips and audio at project paths (e.g., `ads/my-short-ad/video/clips/`) must be **copied** (not symlinked) into `video/remotion-video/public/` so the bundler can include them. Copy as real files. Automate this in the post-production agent's `prepare_assets` step.
 
-**Clip path convention in vsl_manifest.json**: The `clip_src` field must match the path as seen from `video/remotion-video/public/` (what `staticFile()` resolves). If clips are copied to `video/remotion-video/public/ads/cadence-sleepless-v1/clips/`, then `clip_src` = `"ads/cadence-sleepless-v1/clips/scene_01.mp4"`. The original project path (`ads/cadence-sleepless-v1/video/clips/`) is different — don't confuse them.
+**Clip path convention in vsl_manifest.json**: The `clip_src` field must match the path as seen from `video/remotion-video/public/` (what `staticFile()` resolves). If clips are copied to `video/remotion-video/public/ads/my-short-ad/clips/`, then `clip_src` = `"ads/my-short-ad/clips/scene_01.mp4"`. The original project path (`ads/my-short-ad/video/clips/`) is different — don't confuse them.
 
 **Captions linger during pauses**: `createTikTokStyleCaptions` sets `page.durationMs` to extend past the last spoken word (gap-fill). The page stays visible through post-word silence. Fix: after finding `currentPage`, check `currentMs > lastToken.toMs` and return `null` early. Subtitles now disappear the instant the last word ends. This is in `CaptionLayer.tsx`.
 

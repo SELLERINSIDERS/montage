@@ -6,7 +6,7 @@ to skip redundant image generation. Uses prompt_hash for deterministic cache key
 Usage:
     from video.kling.image_cache import ImageCache
 
-    cache = ImageCache(Path("vsl/cleopatra"))
+    cache = ImageCache(Path("vsl/example-project"))
     existing = cache.has_cached("scene_01", "A sweeping aerial shot...")
     if existing:
         print(f"Already generated: {existing}")

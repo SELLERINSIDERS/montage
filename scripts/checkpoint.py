@@ -8,7 +8,7 @@ without any reconstruction overhead.
 Uses atomic_write_json from video.kling.manifest for crash safety.
 
 Usage:
-    mgr = CheckpointManager("vsl/nightcap/state")
+    mgr = CheckpointManager("vsl/my-project/state")
     if mgr.should_checkpoint(len(phases_completed)):
         mgr.write_checkpoint(
             phases_completed=phases_completed,
@@ -59,7 +59,7 @@ class CheckpointManager:
     a pre-written prompt for the next phase.
 
     Args:
-        state_dir: Path to the state directory (e.g., vsl/nightcap/state/).
+        state_dir: Path to the state directory (e.g., vsl/my-project/state/).
     """
 
     def __init__(self, state_dir: str) -> None:

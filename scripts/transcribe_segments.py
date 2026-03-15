@@ -7,7 +7,7 @@ each audio file.
 
 Usage:
     python scripts/transcribe_segments.py \\
-        --project vsl/nightcap [--model base]
+        --project vsl/my-project [--model base]
 """
 
 import argparse
@@ -125,7 +125,7 @@ def main():
     parser.add_argument(
         "--project",
         required=True,
-        help="Project directory (e.g. vsl/nightcap)",
+        help="Project directory (e.g. vsl/my-project)",
     )
     parser.add_argument(
         "--model",

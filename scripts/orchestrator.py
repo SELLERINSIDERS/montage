@@ -11,7 +11,7 @@ compaction in long productions (80+ scenes). Checkpoints enable resume from
 any point without losing progress.
 
 Usage:
-    orch = Orchestrator("vsl/nightcap", "vsl")
+    orch = Orchestrator("vsl/my-project", "vsl")
     state = orch.resume()
     # ... run phase via subagent ...
     next_info = orch.advance_phase("intake", "Completed intake analysis")
@@ -132,7 +132,7 @@ class Orchestrator:
         """Initialize the orchestrator.
 
         Args:
-            project_dir: Path to the project folder (e.g., vsl/nightcap/).
+            project_dir: Path to the project folder (e.g., vsl/my-project/).
             format_type: Production type ("vsl", "ad", "ugc").
             quick_approve: If True, auto-approve gates without human review.
 

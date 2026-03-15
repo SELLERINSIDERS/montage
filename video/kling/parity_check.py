@@ -8,7 +8,7 @@ Usage:
     from video.kling.parity_check import check_parity, ParityError
 
     try:
-        check_parity(Path("vsl/nightcap"))
+        check_parity(Path("vsl/my-project"))
     except ParityError as e:
         print(f"Parity mismatch: {e}")
 """
@@ -33,7 +33,7 @@ def check_parity(project_dir) -> bool:
     2. Image count in images/final/ (or images/v1/ fallback) matches scene count
 
     Args:
-        project_dir: Path to production directory (e.g., vsl/nightcap/).
+        project_dir: Path to production directory (e.g., vsl/my-project/).
 
     Returns:
         True if all counts match.

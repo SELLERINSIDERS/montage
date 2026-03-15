@@ -24,8 +24,8 @@ ACCESS_KEY = os.environ["KLING_ACCESS_KEY"]
 SECRET_KEY = os.environ["KLING_SECRET_KEY"]
 BASE_URL = "https://api.klingai.com/v1"
 
-IMAGE_PATH = Path(__file__).parent.parent.parent / "images/vsl_cleopatra_v3/scene_01_cleopatra_portrait.png"
-OUTPUT_DIR = Path(__file__).parent.parent / "output" / "kling" / "vsl_cleopatra"
+IMAGE_PATH = Path(__file__).parent.parent.parent / "images/vsl_example/scene_01_opening.png"
+OUTPUT_DIR = Path(__file__).parent.parent / "output" / "kling" / "vsl_example"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 PROMPT = (

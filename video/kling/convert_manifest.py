@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert vsl_cleopatra_v3_video.json to batch_generate_concurrent.py-compatible format."""
+"""Convert a video manifest JSON to batch_generate_concurrent.py-compatible format."""
 
 import json
 import os

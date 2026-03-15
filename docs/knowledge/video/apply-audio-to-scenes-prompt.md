@@ -235,7 +235,7 @@ For rendering all scenes at once, use the batch pipeline:
 2. **Batch render**: `python3 scripts/batch_render_audio.py` — renders all scenes sequentially with resume capability
 3. **Re-render specific scenes**: Delete their entries from `state/batch_render_audio_state.json` and their output files, then re-run the batch script
 
-Source clips go in `video/remotion-video/public/vsl/`, output goes to `video/output/kling/vsl_cleopatra_sfx/`.
+Source clips go in `video/remotion-video/public/vsl/`, output goes to `video/output/kling/<project_slug>_sfx/`.
 
 ---
 
@@ -248,9 +248,9 @@ Source clips go in `video/remotion-video/public/vsl/`, output goes to `video/out
 | `video/remotion-video/src/sceneManifest.ts` | Auto-generated clip specs (width, height, fps, frames) |
 | `video/remotion-video/src/Root.tsx` | Dynamic composition registration from manifest |
 | `video/remotion-video/public/sfx/` | Sound effect library |
-| `video/remotion-video/public/vsl/` | Source video clips (copied from vsl_cleopatra) |
-| `video/output/kling/vsl_cleopatra/` | Original silent Kling clips |
-| `video/output/kling/vsl_cleopatra_sfx/` | Final clips with SFX audio |
+| `video/remotion-video/public/vsl/` | Source video clips (copied from project output) |
+| `video/output/kling/<project_slug>/` | Original silent Kling clips |
+| `video/output/kling/<project_slug>_sfx/` | Final clips with SFX audio |
 | `scripts/generate_scene_manifest.py` | ffprobe all clips → generate manifest |
 | `scripts/batch_render_audio.py` | Batch render with resume capability |
 | `state/scene_manifest.json` | Clip specs for batch script |

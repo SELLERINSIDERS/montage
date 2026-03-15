@@ -73,7 +73,7 @@ The orchestrator reads ONLY: manifest, handoffs, checkpoints (all small JSON fil
 All files for a VSL project live in `vsl/{project_slug}/` with subdirectories:
 `state/`, `copy/`, `prompts/`, `images/v1/`, `images/final/`, `audio/`, `video/clips/`, `video/clips_with_audio/`, `video/final/`, `manifest/`
 
-## Pipeline Lessons (Mar 2026 — Cleopatra V2)
+## Pipeline Lessons
 
 ### Phase 9 (Image Revisions)
 - **2K generation**: `MAX_WORKERS = 1` mandatory — concurrent 2K deadlocks. Budget 3-4 min/image

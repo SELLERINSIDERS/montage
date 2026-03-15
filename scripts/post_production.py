@@ -8,13 +8,13 @@ detection that pauses post-production instead of re-rendering.
 
 Usage:
     # Full pipeline (preview render)
-    python scripts/post_production.py vsl/nightcap
+    python scripts/post_production.py vsl/my-project
 
     # Final quality render
-    python scripts/post_production.py vsl/nightcap --final
+    python scripts/post_production.py vsl/my-project --final
 
     # Re-render preview from existing EDL
-    python scripts/post_production.py vsl/nightcap --rerender
+    python scripts/post_production.py vsl/my-project --rerender
 """
 
 import argparse

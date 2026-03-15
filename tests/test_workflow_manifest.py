@@ -23,7 +23,7 @@ class TestCreateSchema:
 
     def test_format_field(self, tmp_path):
         path = str(tmp_path / "manifest.json")
-        data = WorkflowManifest.create("vsl", "cleopatra", 10, path=path)
+        data = WorkflowManifest.create("vsl", "example-project", 10, path=path)
         assert data["format"] == "vsl"
 
     def test_scene_count(self, tmp_path):

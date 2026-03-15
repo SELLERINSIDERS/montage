@@ -6,7 +6,7 @@ calculated from ffprobe audio durations. Adds scene_id annotation
 to each segment for downstream EDL generation.
 
 Usage:
-    python scripts/merge_whisper.py --project vsl/nightcap
+    python scripts/merge_whisper.py --project vsl/my-project
 """
 
 import argparse

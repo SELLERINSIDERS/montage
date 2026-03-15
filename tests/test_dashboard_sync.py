@@ -268,9 +268,9 @@ class TestProductionIdDeterministic:
     def test_production_id_deterministic(self):
         from scripts.dashboard_sync import DashboardSync
 
-        id1 = DashboardSync._production_id("vsl", "cleopatra")
-        id2 = DashboardSync._production_id("vsl", "cleopatra")
-        id3 = DashboardSync._production_id("ad", "cleopatra")
+        id1 = DashboardSync._production_id("vsl", "example-project")
+        id2 = DashboardSync._production_id("vsl", "example-project")
+        id3 = DashboardSync._production_id("ad", "example-project")
 
         assert id1 == id2
         assert id1 != id3

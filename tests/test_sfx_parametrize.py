@@ -18,7 +18,7 @@ class TestApplySfxToClipsParametrize:
 
     def test_project_flag_derives_clips_dir(self, tmp_path):
         """--project flag builds correct clips_dir path."""
-        project = tmp_path / "vsl" / "nightcap"
+        project = tmp_path / "vsl" / "my-project"
         project.mkdir(parents=True)
         (project / "video" / "clips").mkdir(parents=True)
         (project / "manifest").mkdir(parents=True)
@@ -52,8 +52,8 @@ class TestApplySfxToClipsParametrize:
         with pytest.raises(FileNotFoundError):
             build_paths(str(tmp_path / "nonexistent" / "project"))
 
-    def test_no_hardcoded_cleopatra_refs(self):
-        """No hardcoded references to cleopatra in apply_sfx_to_clips.py."""
+    def test_no_hardcoded_project_specific_refs(self):
+        """No hardcoded project-specific refs in apply_sfx_to_clips.py."""
         source = (Path(__file__).parent.parent / "scripts" / "apply_sfx_to_clips.py").read_text()
         assert "cleopatra" not in source.lower()
         assert "vsl_cleopatra" not in source
@@ -67,7 +67,7 @@ class TestReapplySfxSingleParametrize:
 
     def test_project_and_scene_flags_derive_paths(self, tmp_path):
         """--project and --scene flags build correct paths."""
-        project = tmp_path / "vsl" / "nightcap"
+        project = tmp_path / "vsl" / "my-project"
         project.mkdir(parents=True)
         (project / "video" / "clips").mkdir(parents=True)
         (project / "manifest").mkdir(parents=True)
@@ -92,7 +92,7 @@ class TestReapplySfxSingleParametrize:
         """Main raises SystemExit when --scene is missing."""
         from scripts.reapply_sfx_single import main
 
-        with patch("sys.argv", ["reapply_sfx_single.py", "--project", "vsl/nightcap"]):
+        with patch("sys.argv", ["reapply_sfx_single.py", "--project", "vsl/my-project"]):
             with pytest.raises(SystemExit):
                 main()
 
@@ -109,8 +109,8 @@ class TestReapplySfxSingleParametrize:
         with pytest.raises(FileNotFoundError):
             build_paths(str(tmp_path / "nonexistent" / "project"))
 
-    def test_no_hardcoded_cleopatra_refs(self):
-        """No hardcoded references to cleopatra in reapply_sfx_single.py."""
+    def test_no_hardcoded_project_specific_refs(self):
+        """No hardcoded project-specific refs in reapply_sfx_single.py."""
         source = (Path(__file__).parent.parent / "scripts" / "reapply_sfx_single.py").read_text()
         assert "cleopatra" not in source.lower()
         assert "vsl_cleopatra" not in source

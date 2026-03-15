@@ -42,7 +42,7 @@ prompt-creator → prompt-verifier → image-generator (see `/project:visual-ad-
 - **Workers**: `MAX_WORKERS = 1` — MANDATORY. Concurrent 2K requests deadlock
 - **Timing**: 3-4 minutes per image, 5-7 MB output per image
 - **Timeout**: 300s (5 min) signal timeout for 2K
-- **Script**: `scripts/visuals/generate_vsl_cleopatra_2k.py`
+- **Script**: your project-specific 2K generation script
 
 ## Pose Control
 - AI misinterprets complex body poses (e.g., "sitting on toilet" → person facing toilet)
@@ -56,5 +56,5 @@ prompt-creator → prompt-verifier → image-generator (see `/project:visual-ad-
 
 ## Output
 - **Ad visuals**: `images/blog_ads_v2/`, naming: `ad_XX_short_name.png`
-- **VSL scenes**: `images/vsl_cleopatra_v{N}/`, `images/vsl_cleopatra_2k/` (final production)
-- **Scripts**: `scripts/visuals/generate_blog_ad_visuals_v4.py` (latest ads), `scripts/visuals/generate_vsl_cleopatra_2k.py` (latest VSL)
+- **VSL scenes**: `{project}/images/v1/`, `{project}/images/final/` (final production)
+- **Scripts**: project-specific generation scripts in `scripts/visuals/`

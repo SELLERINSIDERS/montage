@@ -8,7 +8,7 @@ Usage:
     from video.kling.compliance_gate import check_compliance, ComplianceError
 
     try:
-        check_compliance(Path("vsl/nightcap"))
+        check_compliance(Path("vsl/my-project"))
     except ComplianceError as e:
         print(f"Blocked: {e}")
 """
@@ -29,7 +29,7 @@ def check_compliance(project_dir) -> bool:
     """Check compliance_report.json and panel_report.json before voiceover generation.
 
     Args:
-        project_dir: Path to production directory (e.g., vsl/cleopatra/).
+        project_dir: Path to production directory (e.g., vsl/example-project/).
 
     Returns:
         True if all checks pass.

@@ -7,7 +7,7 @@ content-aware cache keys (regenerates if either prompt or source image changes).
 Usage:
     from video.kling.clip_cache import ClipCache
 
-    cache = ClipCache(Path("vsl/cleopatra"))
+    cache = ClipCache(Path("vsl/example-project"))
     existing = cache.has_cached("scene_01", "Camera slowly pushes in...", "images/v1/scene_01.png")
     if existing:
         print(f"Already generated: {existing}")

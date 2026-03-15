@@ -5,7 +5,7 @@ Uses ffmpeg concat demuxer with -c copy (no re-encode) for lossless
 concatenation. Segments are sorted by filename for deterministic order.
 
 Usage:
-    python scripts/merge_voiceover.py --project vsl/nightcap
+    python scripts/merge_voiceover.py --project vsl/my-project
 """
 
 import argparse

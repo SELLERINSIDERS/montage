@@ -17,7 +17,7 @@ tags: [remotion, audio, sfx, post-production]
 
 ## ID Format Warning
 - audioDesigns.ts uses **snake_case** keys: `scene_01`, `scene_26`
-- sceneManifest.ts uses **PascalCase** compIds: `Scene01CleopatraPortrait`, `Scene26MagnesiumCrystalReveal`
+- sceneManifest.ts uses **PascalCase** compIds: `Scene01OpeningShot`, `Scene26ProductReveal`
 - The batch render script must convert between formats. See Mistake 6 in sound-design SKILL.md.
 
 ## SFX Library
@@ -41,11 +41,11 @@ Location: `video/remotion-video/public/sfx/` — 56 approved + 13 banned = 69 to
 - Detail: 0.15-0.3
 
 ## Diversity Cap
-No single sound > 20% of total scenes. Cleopatra V2 max was 14.8% (water_lapping).
+No single sound > 20% of total scenes.
 
 ## Output
-- Source clips: `video/output/kling/vsl_cleopatra_v4/`
-- Final with audio: `video/output/kling/vsl_cleopatra_v4_with_audio/`
+- Source clips: `{project}/video/clips/`
+- Final with audio: `{project}/video/clips_with_audio/`
 
 ## Render Performance
 - 123 clips (102 audio + 21 SILENT copies) in ~11 min (~5.4s avg per audio scene)

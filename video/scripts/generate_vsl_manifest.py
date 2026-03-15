@@ -25,59 +25,16 @@ MANIFEST_PATH = os.path.join(
 )
 
 # Scene-to-script mapping: first few words of each scene's script line
-# Used to find Whisper timestamps for each scene boundary
+# Used to find Whisper timestamps for each scene boundary.
+#
+# EXAMPLE ANCHORS — replace these with your actual script lines.
+# Each tuple is (scene_id, "first few words of that scene's narration").
 SCENE_SCRIPT_ANCHORS = [
-    ("scene_01", "In 40 BC Cleopatra convinced"),
-    ("scene_02", "Not for gold"),
-    ("scene_03", "For access to one single mineral"),
-    ("scene_04", "Cleopatra was crowned queen"),
-    ("scene_05", "Surrounded by enemies"),
-    ("scene_06", "Twice"),
-    ("scene_07", "But she didn't just survive"),
-    ("scene_08", "She discovered something"),
-    ("scene_09", "On the shores of a dead lake"),
-    ("scene_10", "A mineral so valuable"),
-    ("scene_11", "She convinced Mark Antony"),
-    ("scene_12", "Built factories along"),
-    ("scene_13", "Leased the mineral rights"),
-    ("scene_14a", "Ruled Egypt"),
-    ("scene_14b", "Commanded navies"),
-    ("scene_14c", "Spoke nine languages"),
-    ("scene_14d", "Outlasted three Roman"),
-    ("scene_15", "And every single night"),
-    ("scene_16", "The most powerful woman"),
-    ("scene_17", "But here's what history"),
-    ("scene_18", "That mineral was magnesium"),
-    ("scene_19", "The Dead Sea contains 30"),
-    ("scene_20", "For 3 000 years"),
-    ("scene_21a", "Through water"),
-    ("scene_21b", "Through soil"),
-    ("scene_21c", "Through food"),
-    ("scene_22", "Then modern agriculture"),
-    ("scene_23", "Industrial farming stripped"),
-    ("scene_24", "Water treatment plants"),
-    ("scene_25", "Processed food destroyed"),
-    ("scene_26", "In just two generations"),
-    ("scene_27", "Today studies show"),
-    ("scene_28", "Your body uses it"),
-    ("scene_29a", "Lying awake at 2"),
-    ("scene_29b", "Racing thoughts"),
-    ("scene_29c", "Waking up more tired"),
-    ("scene_30", "It's not stress"),
-    ("scene_31", "Cleopatra didn't have that problem"),
-    ("scene_32", "And now for the first time"),
-    ("scene_33", "Dead Sea magnesium"),
-    ("scene_34", "But Evil Lance goes further"),
-    ("scene_35a", "Combined with saffron"),
-    ("scene_35b", "And L theanine"),
-    ("scene_36", "Third party tested"),
-    ("scene_37a", "Calm Not groggy"),
-    ("scene_37b", "You drift off naturally"),
-    ("scene_38", "Cleopatra built an empire"),
-    ("scene_39", "Most people can't even"),
-    ("scene_40", "The difference isn't willpower"),
-    ("scene_41", "Right now Evil Lance"),
-    ("scene_42", "Try it for 90 nights"),
+    ("scene_01", "First few words of scene one narration"),
+    ("scene_02", "First few words of scene two narration"),
+    ("scene_03", "First few words of scene three narration"),
+    ("scene_04", "First few words of scene four narration"),
+    # ... add one entry per scene in your script
 ]
 
 CLIP_DURATION = 5.04  # seconds, from ffprobe

@@ -315,7 +315,7 @@ def main():
     parser.add_argument("--batch-manifest", type=str, default=None,
                         help="Path to batch manifest file (default: {output_dir}/batch_manifest.json)")
     parser.add_argument("--project", type=str, default=None,
-                        help="Project directory for audio_design.json (e.g. vsl/nightcap)")
+                        help="Project directory for audio_design.json (e.g. vsl/my-project)")
     args = parser.parse_args()
 
     # Output directory

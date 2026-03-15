@@ -16,7 +16,7 @@ tags: [elevenlabs, whisper, heygen, voiceover, captions, avatar]
 - Voice speed varies by voice — Jessica/Hope are naturally slow even at high speed settings
 - **Skill**: `.claude/skills/elevenlabs/SKILL.md`
 - **Output**: `video/output/elevenlabs/`
-- **Current**: Cleopatra VSL voiceover, V4 = Laura 1.2 speed, 3:25 duration
+- **Example output**: VSL voiceover, Laura voice at 1.2 speed, ~3:25 duration
 
 ## HeyGen (Avatar)
 - **Kate avatar**: `1c4f0c7552604526bf5f9a49822c3660`

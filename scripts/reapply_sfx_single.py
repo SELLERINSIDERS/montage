@@ -4,7 +4,7 @@ Re-apply SFX to a single clip. Strips existing audio first,
 then overlays new SFX layers from the project's audio_design.json.
 
 Usage:
-    python scripts/reapply_sfx_single.py --project vsl/nightcap --scene scene_V2_32
+    python scripts/reapply_sfx_single.py --project vsl/my-project --scene scene_V2_32
 """
 
 import argparse
@@ -25,7 +25,7 @@ def build_paths(project_dir: str) -> dict:
     """Derive clips_dir and audio_design path from a project directory.
 
     Args:
-        project_dir: Project directory path (e.g. "vsl/nightcap").
+        project_dir: Project directory path (e.g. "vsl/my-project").
 
     Returns:
         Dict with clips_dir and audio_design as Path objects.
@@ -173,7 +173,7 @@ def apply_sfx(scene_id, layers, clip_path, sfx_dir=None):
 def main():
     parser = argparse.ArgumentParser(description="Re-apply SFX to a single clip")
     parser.add_argument("--project", required=True,
-                        help="Project directory e.g. vsl/nightcap")
+                        help="Project directory e.g. vsl/my-project")
     parser.add_argument("--scene", required=True,
                         help="Scene ID e.g. scene_V2_32")
     args = parser.parse_args()
